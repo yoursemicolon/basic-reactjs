@@ -1,6 +1,0 @@
-Data Peserta Sanbercode Bootcamp ReactJS
-1. Nama: Amanda Rozi Kurnia
-2. Email: amandarozikurnia@gmail.com
-3. Sistem Operasi yang digunakan: Windows
-4. Akun Gitlab/Github: maisugarhoney
-5. Akun Telegram: Amanda Rozi Kurnia
