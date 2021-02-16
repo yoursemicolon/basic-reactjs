@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            width: 700px;
+            border: 1px solid gray;
+            margin: 5px;
+            padding: 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+        th {
+            text-align: left;
+            vertical-align: bottom;
+            width: 150px;
+        }
+        button {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hubungi Kami</h1>
+    <p>
+        <b>Kantor: </b>Institut Teknologi Sepuluh Nopember, Surabaya <br>
+        <b>Nomor Telepon: </b> 0812-3456-7890 <br>
+        <b>Email: </b> amandarozikurnia@gmail.com
+    </p>
+    <h1>Kirimkan Pesan</h1>
+    
+    <form action="#" method="POST">
+        <table>
+            <tr>
+                <th>
+                    <label for="nama">Nama</label>
+                </th>
+                <td>
+                    <input type="text" id="nama" name="nama">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email">Email</label>
+                </th>
+                <td>
+                    <input type="text" id="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <th>Jenis Kelamin</th>
+                <td>
+                    <input type="radio" id="laki" name="gender" value="laki">
+                    <label for="laki">Laki-laki</label> <br>
+                    <input type="radio" id="perempuan" name="gender" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="pesan">Pesan Anda</label>
+                </th>
+                <td>
+                    <textarea name="pesan" id="pesan" cols="50" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Kirim</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="index.html">Kembali Ke Index</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>
