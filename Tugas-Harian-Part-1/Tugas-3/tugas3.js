@@ -5,6 +5,7 @@ var kataKetiga = "belajar";
 var kataKeempat = "javascript";
 
 console.log(kataPertama + " " + kataKedua + " " + kataKetiga.charAt(0).toUpperCase() + kataKetiga.slice(1) + " " + kataKeempat.toUpperCase());
+console.log();
 
 // soal 2
 var kataPertama = "1";
@@ -13,6 +14,7 @@ var kataKetiga = "4";
 var kataKeempat = "5";
 
 console.log(parseInt(kataPertama) + parseInt(kataKedua) + parseInt(kataKetiga) + parseInt(kataKeempat));
+console.log();
 
 // soal 3
 var kalimat = 'wah javascript itu keren sekali';
@@ -28,6 +30,7 @@ console.log('Kata Kedua: ' + string2);
 console.log('Kata Ketiga: ' + string3);
 console.log('Kata Keempat: ' + string4);
 console.log('Kata Kelima: ' + string5);
+console.log();
 
 // soal 4
 var nilai = 78;
@@ -43,6 +46,7 @@ if(nilai >= 80) {
 } else {
     console.log('E');
 }
+console.log();
 
 // soal 5
 var tanggal = 3;
@@ -91,3 +95,4 @@ switch(bulan) {
 }
 
 console.log(tanggal.toString() + " " + stringBulan + " " + tahun.toString());
+// console.log(tanggal + " " + stringBulan + " " + tahun);
