@@ -1,5 +1,7 @@
 // soal 1
+console.log("----Soal 1----")
 // release 0
+console.log("----Release 0----")
 class Animal {
     constructor(name, legs = 4, cold_blooded = false) {
         this.name = name
@@ -38,32 +40,37 @@ console.log(sheep.legs)
 
 // // release 2
 class Frog extends Animal {
-    constructor(name, legs = 4, cold_blooded = false, yell) {
-        super(name, legs = 4, cold_blooded = false)
+    constructor(yell) {
+        super()
         this.yell = yell
     }
-    yell() {
-        
+
+    jump = () => {
+        console.log("hop hop")
     }
 }
 
 class Ape extends Animal {
-    constructor(name, legs = 4, cold_blooded = false, jump) {
-        super(name, legs = 4, cold_blooded = false)
-        this.jump = jump
+    constructor(name, legs = 2) {
+        super()
+        this.name = name
+        this.legs = legs
     }
-    jump() {
-        return "hop hop"
+
+    yell = () => {
+        console.log("Auooo")
     }
 }
 
+console.log("----Release 1----")
 var sungokong = new Ape("kera sakti")
 sungokong.yell() // "Auooo"
 
 var kodok = new Frog("buduk")
-kodok.jump() // "hop hop" 
+kodok.jump() // "hop hop"
 
-// // soal 2 
+// soal 2 
+console.log("----Soal 2----")
 class Clock {
     
     constructor({template}) {
