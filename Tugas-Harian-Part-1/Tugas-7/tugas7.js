@@ -64,42 +64,42 @@ var kodok = new Frog("buduk")
 kodok.jump() // "hop hop" 
 
 // // soal 2 
-// class Clock {
+class Clock {
     
-//     constructor({template}) {
-//         this.template = template
-//         this.timer = null
-//     }
+    constructor({template}) {
+        this.template = template
+        this.timer = null
+    }
     
-//     render() {
-//         var date = new Date();
+    render() {
+        var date = new Date();
 
-//         var hours = date.getHours();
-//         if (hours < 10) hours = '0' + hours;
+        var hours = date.getHours();
+        if (hours < 10) hours = '0' + hours;
     
-//         var mins = date.getMinutes();
-//         if (mins < 10) mins = '0' + mins;
+        var mins = date.getMinutes();
+        if (mins < 10) mins = '0' + mins;
     
-//         var secs = date.getSeconds();
-//         if (secs < 10) secs = '0' + secs;
+        var secs = date.getSeconds();
+        if (secs < 10) secs = '0' + secs;
     
-//         var output = this.template
-//             .replace('h', hours)
-//             .replace('m', mins)
-//             .replace('s', secs);
+        var output = this.template
+            .replace('h', hours)
+            .replace('m', mins)
+            .replace('s', secs);
     
-//         console.log(output);
-//     }
+        console.log(output);
+    }
 
-//     stop() {
-//         clearInterval(this.timer)
-//     }
+    stop() {
+        clearInterval(this.timer)
+    }
 
-//     start() {
-//         this.render()
-//         this.timer = setInterval(this.render.bind(this), 1000)
-//     }
-// }
+    start() {
+        this.render()
+        this.timer = setInterval(this.render.bind(this), 1000)
+    }
+}
 
-// var clock = new Clock({template: 'h:m:s'});
-// clock.start();  
+var clock = new Clock({template: 'h:m:s'});
+clock.start();  
