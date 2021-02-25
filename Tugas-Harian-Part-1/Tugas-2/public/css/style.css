@@ -2,7 +2,7 @@ body {
     background-image: url(../img/pattern.jpg);
     font-family: "Slabo 27px", serif;
 }
-header {
+nav {
     position: fixed;
     display: flex;
     justify-content: space-between;
