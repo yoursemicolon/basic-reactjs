@@ -18,8 +18,8 @@ class TabelBuah extends Component {
         ]
         return (
             <>
-            <form style={{fontFamily: "serif"}}>
-                <h1>Tabel Harga Buah</h1>
+            <form>
+                <h1>Daftar Harga Buah</h1>
                 <table className="table">
                     <tr className="judul">
                         <th className="nama">Nama</th>
