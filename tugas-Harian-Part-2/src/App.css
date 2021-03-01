@@ -1,8 +1,7 @@
 .App {
   width: 500px;
-  margin: 10px;
+  margin: 10px auto;
   padding: 15px;
-  font-family: serif;
   border: 2px solid grey;
   border-radius: 10px;
 }
