@@ -1,11 +1,7 @@
 import React, {Component} from 'react';
 import './style.css'
-
-function NamaBuah(props) {
-    return (
-        <td scope="row">{props.nama}</td>
-    )
-}
+import './ListBuah'
+import ListBuah from './ListBuah';
 
 class TabelBuah extends Component {
     render() {
@@ -17,7 +13,6 @@ class TabelBuah extends Component {
             {nama: "Mangga", harga: 30000, berat: 500}
         ]
         return (
-            <>
             <form>
                 <h1>Daftar Harga Buah</h1>
                 <table className="table">
@@ -26,20 +21,19 @@ class TabelBuah extends Component {
                         <th>Harga</th>
                         <th>Berat</th>
                     </tr>
-                    {dataHargaBuah.map(item => { // for each
+                    {dataHargaBuah.map((el, index) => { // for each
                         return (
                             <tr className="isi">
-                                <NamaBuah nama={item.nama}/>
-                                <td>{item.harga}</td>
-                                <td>{item.berat/1000} kg</td>
+                                <ListBuah item={el} key={index}/>
                             </tr>
                         )
                     })}
                 </table>
             </form>
-            </>
         )
     }
 }
 
 export default TabelBuah;
+
+
