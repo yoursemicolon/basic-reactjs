@@ -1,4 +1,4 @@
-.App {
+/* .App {
   width: 500px;
   margin: 10px auto;
   padding: 15px;
@@ -12,10 +12,36 @@ th {
   text-align: left;
   vertical-align: bottom;
   width: 150px;
-}
-button {
-  background-color: white;
-  border-radius: 15px;
+} */
+.daftar-harga button {
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
   padding: 2px 5px;
-  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  margin-left: 10px;
+  align-items: center;
+}
+.daftar-harga {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.daftar-harga td, .daftar-harga th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.daftar-harga tr:nth-child(even){background-color: #f2f2f2;}
+
+.daftar-harga tr:hover {background-color: #ddd;}
+
+.daftar-harga th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: crimson;
+  color: white;
 }

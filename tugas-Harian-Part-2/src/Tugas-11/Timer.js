@@ -9,6 +9,7 @@ class Timer extends Component {
             visibleTime: true
         }
         this.hideTimer.bind(this) // agar ga ke-loop terus
+        // note: kalau pakai arrow function, ga perlu pake bind
     }
 
     componentDidMount() {
@@ -44,6 +45,11 @@ class Timer extends Component {
     hideTimer() {
         this.setState({visibleTime: !this.state.visibleTime})
     }
+
+    // arrow function
+    // hideTimer = () => {
+    //     this.setState({visibleTime: !this.state.visibleTime})
+    // }
 
     render() {
         const {clock} = this.state
