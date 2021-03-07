@@ -1,0 +1,23 @@
+div {
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+.form-table {
+    margin: auto;
+    border: 1px solid #aaa;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.form-table tr {
+    height: 50px;
+}
+.form-table tr th {
+    text-align: left;
+}
+.form-table tr td {
+    text-align: right;
+    width: 500px;
+}
