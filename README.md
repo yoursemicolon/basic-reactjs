@@ -1,2 +1,1 @@
-# sanbercode-reactjs
-im-sanbercode-reactjs-batch-22
+# Basic Reactjs
